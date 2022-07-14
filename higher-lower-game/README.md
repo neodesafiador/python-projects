@@ -1,0 +1,1 @@
+The aim of the game is to try and stay alive for as long as possible and score as high as possible by thinking about who might be more popular than the other.
