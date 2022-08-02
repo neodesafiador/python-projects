@@ -19,14 +19,14 @@ class Menu:
             MenuItem(name="cappuccino", water=250, milk=50, coffee=24, cost=3),
         ]
 
-    # Returns all the names of the available menu items
+    # Return all the names of the available menu items
     def get_items(self):
         options = ""
         for item in self.menu:
             options += f"{item.name}/"
         return options
 
-    # Searches the menu for a particular drink by name. Returns that item if it exists, otherwise returns None
+    # Searche the menu for a particular drink by name. Returns that item if it exists, otherwise returns None
     def find_drink(self, order_name):
         for item in self.menu:
             if item.name == order_name:
