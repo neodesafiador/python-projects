@@ -24,6 +24,13 @@ class Snake:
         new_segment.goto(position)
         self.segments.append(new_segment)
 
+    def reset(self):
+        for segment in self.segments:    # when the snake hits the wall or when
+            segment.goto(1000, 1000)     # it hits its tail, it actually
+        self.segments.clear()            # disappears into a location that's
+        self.create_snake()              # off the screen.
+        self.head = self.segments[0]
+
     def extend(self):
         self.add_segment(self.segments[-1].position())
 
