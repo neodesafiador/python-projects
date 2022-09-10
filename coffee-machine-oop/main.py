@@ -1,3 +1,18 @@
+###############################################################################
+# @file     main.py
+# @brief    Make a digital version of coffee machine in OOP
+#
+# Program Requirements
+# 1. Print report.
+# 2. Check resources sufficient?
+# 3. Process coins
+# 4. Check transaction successful?
+# 5. Make Coffee.
+#
+# @author   Katsuki Oike
+# @date     September 10, 2022
+###############################################################################
+
 from menu import Menu
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine

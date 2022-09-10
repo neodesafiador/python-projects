@@ -1,3 +1,14 @@
+###############################################################################
+# @file     money_machine.py
+# @brief    Implement MoneyMachine class
+#
+# Create constructor
+# Implement eport(), process_coins() ,and make_payment() methods.
+#
+# @author   Katsuki Oike
+# @date     September 10, 2022
+###############################################################################
+
 class MoneyMachine:
 
     CURRENCY = "$"

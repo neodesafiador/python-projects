@@ -1,3 +1,14 @@
+###############################################################################
+# @file     menu.py
+# @brief    Implement MenuItem and Menu class
+#
+# Create constructor
+# Implement get_items() and find_drink() methods.
+#
+# @author   Katsuki Oike
+# @date     September 10, 2022
+###############################################################################
+
 class MenuItem:
     """Models each Menu Item."""
     def __init__(self, name, water, milk, coffee, cost):
@@ -26,7 +37,8 @@ class Menu:
             options += f"{item.name}/"
         return options
 
-    # Searche the menu for a particular drink by name. Returns that item if it exists, otherwise returns None
+    # Searche the menu for a particular drink by name. Returns that item if it
+    # exists, otherwise returns None
     def find_drink(self, order_name):
         for item in self.menu:
             if item.name == order_name:

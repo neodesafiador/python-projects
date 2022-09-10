@@ -1,5 +1,16 @@
+###############################################################################
+# @file     coffee_maker.py
+# @brief    Models the machine that makes the coffee
+#
+# Create constructor
+# Implement report(), is_resource_sufficient(), and make_coffee() methods.
+#
+# @author   Katsuki Oike
+# @date     September 10, 2022
+###############################################################################
+
 class CoffeeMaker:
-    """Models the machine that makes the coffee"""
+
     def __init__(self):
         self.resources = {
             "water": 300,
