@@ -1,2 +1,1 @@
-# python-bootcamp
-The Complete Python Pro Bootcamp
+# python-projects
