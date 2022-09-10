@@ -1,3 +1,11 @@
+###############################################################################
+# @file     game_data.py
+# @brief    Data that is saved as dictionary
+#
+# @author   Katsuki Oike
+# @date     September 10, 2022
+###############################################################################
+
 data = [
     {
         'name': 'Instagram',

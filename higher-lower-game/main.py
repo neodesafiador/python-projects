@@ -1,3 +1,18 @@
+###############################################################################
+# @file     main.py
+# @brief    The higher lower game
+#
+# get_random_account() function to get data from random account.
+# format_data() function to format account into printable format: name,
+# description and country.
+# check_answer() function to Checks followers against user's guess and returns
+# True if they got it right. Or False if they got it wrong.
+# game() function to play the game
+#
+# @author   Katsuki Oike
+# @date     September 10, 2022
+###############################################################################
+
 from game_data import data
 import random
 from art import logo, vs
@@ -12,7 +27,6 @@ def format_data(account):
   name = account["name"]
   description = account["description"]
   country = account["country"]
-  # print(f'{name}: {account["follower_count"]}')
   return f"{name}, a {description}, from {country}"
 
 def check_answer(guess, a_followers, b_followers):
